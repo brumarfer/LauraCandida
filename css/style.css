@@ -408,10 +408,11 @@ h3 {
   color: #131313;
   display: block;
   padding: 12px 42px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 600;
   border: 0;
+  border-radius: 25px;
   border: 1px solid #73361f;
   letter-spacing: 0;
   text-align: center;
@@ -450,7 +451,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 12px 42px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: 0;
@@ -487,7 +488,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 13px 27px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -533,7 +534,7 @@ h3 {
   color: #28ae60 !important;
   display: inline-block;
   padding: 14px 31px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -574,7 +575,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -1086,7 +1087,7 @@ h3 {
   font-weight: 400;
   display: inline-block;
   padding: 0px 0px 0px 0px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -1289,7 +1290,7 @@ h3 {
 /* line 17, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   color: #fff;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 120px;
   text-transform: uppercase;
   font-weight: 600;
@@ -1640,7 +1641,7 @@ h3 {
 /* line 97, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_gallery.scss */
 .portfolio_details_area .portfolio_details_content p {
   font-size: 16px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #727272;
   line-height: 28px;
 }
@@ -3272,7 +3273,7 @@ h3 {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
