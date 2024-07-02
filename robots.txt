@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.olablearning.com/sitemap.xml
+Sitemap: https://www.olablearning.com/sitemap.xml
+Sitemap: http://www.olablearning.com/sitemap.txt
+Sitemap: https://www.olablearning.com/sitemap.txt
