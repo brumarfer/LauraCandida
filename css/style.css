@@ -5812,6 +5812,6 @@ body {
 }
 
 body {
-  background-image: url(/img/texture.png);
+  background-image: url(../img/texture.png);
   background-color: rgba(245, 245, 220, 0.521);
 }
