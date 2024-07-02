@@ -228,11 +228,11 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.4+0,1+100 */
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, black 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, black 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, black 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, black 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */
@@ -405,19 +405,18 @@ h3 {
 
 /* line 1,*/
 .boxed-btn {
-  background: rgba(115, 54, 31, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   color: #131313;
   display: block;
   padding: 12px 42px;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   border: 0;
   border-radius: 25px;
-  border: 1px solid #73361f;
   letter-spacing: 0;
   text-align: center;
-  color: #ffffff !important;
+  color: rgb(115, 54, 31) !important;
   cursor: pointer;
 }
 
@@ -432,7 +431,6 @@ h3 {
 .boxed-btn:hover {
   background: rgba(115, 54, 31, 1);
   color: #fff !important;
-  border: 1px solid #73361f;
 }
 
 /* line 24,*/
