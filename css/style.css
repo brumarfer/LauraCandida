@@ -80,7 +80,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #001d38;
 }
 
@@ -7328,6 +7328,47 @@ h6 {
   padding: 15px;
   text-align: Left;
 }
+
+@media (max-width: 576px) {
+  /* line 150, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_blog_part.scss */
+  .social-icons {
+    text-align: center;
+  }
+  .socialHeader {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 150, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_blog_part.scss */
+  .social-icons {
+    text-align: center;
+  }
+  .socialHeader {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 150, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_blog_part.scss */
+  .social-icons {
+    text-align: center;
+  }
+  .socialHeader {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 150, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_blog_part.scss */
+  .social-icons {
+    text-align: center;
+  }
+  .socialHeader {
+    text-align: center;
+  }
+}
+
 .social-icons a {
   color: #73361f;
   line-height: 30px;
