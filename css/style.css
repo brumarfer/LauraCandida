@@ -24,6 +24,7 @@ body {
   font-weight: normal;
   font-style: normal;
   width: 100vw;
+  text-align: justify;
 }
 
 /* line 12, ../../Arafath/CL/Cl November/221. Music/HTML/scss/theme-default.scss */
@@ -108,11 +109,11 @@ li {
 /* line 61, ../../Arafath/CL/Cl November/221. Music/HTML/scss/theme-default.scss */
 p {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 28px;
   color: #727272;
   margin-bottom: 13px;
-  font-family: "Muli", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* line 70, ../../Arafath/CL/Cl November/221. Music/HTML/scss/theme-default.scss */
@@ -4037,7 +4038,7 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
-  font-family: "Muli", sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -5808,4 +5809,9 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
+}
+
+body {
+  background-image: url(/img/texture.png);
+  background-color: rgba(245, 245, 220, 0.521);
 }
