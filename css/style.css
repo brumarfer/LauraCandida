@@ -1209,7 +1209,7 @@ h3 {
 
 /* line 1,*/
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner.webp);
 }
 
 /* line 8,*/
@@ -2266,6 +2266,6 @@ body {
 }
 
 body {
-  background-image: url(../img/texture.png);
+  background-image: url(../img/texture.webp);
   background-color: rgba(245, 245, 220, 0.521);
 }
