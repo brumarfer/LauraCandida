@@ -319,65 +319,6 @@ h3 {
   padding-top: 120px;
 }
 
-/* button style */
-/* line 227,  */
-.owl-carousel .owl-nav div {
-  background: transparent;
-  height: 50px;
-  left: 0px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  width: 50px;
-  color: #fff;
-  background-color: transparent;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  left: 50px;
-  font-size: 15px;
-  line-height: 50px;
-  border: 1px solid #787878;
-  left: 150px;
-}
-
-/* line 254,  */
-.owl-carousel .owl-nav div.owl-next {
-  left: auto;
-  right: 150px;
-}
-
-/* line 259,  */
-.owl-carousel .owl-nav div.owl-next i {
-  position: relative;
-  right: 0;
-}
-
-/* line 266,  */
-.owl-carousel .owl-nav div.owl-prev i {
-  position: relative;
-  top: 0px;
-}
-
-/* line 276,  */
-.owl-carousel:hover .owl-nav div {
-  opacity: 1;
-  visibility: visible;
-}
-
-/* line 279,  */
-.owl-carousel:hover .owl-nav div:hover {
-  color: #fff;
-  background: #28ae61;
-  border: 1px solid transparent;
-}
-
 /* line 289,  */
 .mb-20px {
   margin-bottom: 20px;
