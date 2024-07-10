@@ -60,7 +60,7 @@
           <div class="container-fluid">
             <div class="header_bottom_border">
               <div class="row align-items-center">
-                <div class="col-xl-3 col-lg-2">
+                <div class="col-xl-1 col-lg-2">
                   <div class="logo">
                     <a href="index.html" aria-label="Página Principal">
                       <img class="logo" src="img/logo.png" alt="" />
@@ -69,7 +69,17 @@
                   </div>
                 </div>
                 <div class="col-xl-6 col-lg-7">
-                  <div class="main-menu d-none d-lg-block"></div>
+                  <div class="main-menu d-none d-lg-block">
+                    <nav>
+                      <ul id="navigation">
+                        <li><a class="active" href="index.html">home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#shows">Shows</a></li>
+                        <li><a href="#clipes">Clipes</a></li>
+                        <li><a href="#lançamentos">Lançamentos</a></li>
+                      </ul>
+                    </nav>
+                  </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                   <div class="social_icon text-right">
@@ -146,8 +156,8 @@
     <!-- slider_area_end -->
 
     <!-- about_area  -->
-    <div class="about_area">
-      <div class="container">
+    <div class="about_area" id="sobre">
+      <div class="container" id="about">
         <div class="row align-items-center">
           <div class="col-xl-5 col-md-6">
             <div class="about_thumb">
@@ -182,6 +192,7 @@
                 presentear com novos arranjos produzidos especialmente para os
                 palcos.
               </p>
+              <p></p>
 
               </div>
             </div>
@@ -191,11 +202,21 @@
     </div>
     <!--/ about_area  -->
 
+    <!--/ upcoming shows  -->
+
+    <div class="shows"  id="shows">
+      <h1 class="proximosShows">Próximos Shows</h1>
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <div class="elfsight-app-29b592b8-1eb5-4139-8866-842bf85d636d" data-elfsight-app-lazy></div>
+
+    </div>
+
+
     <!-- youtube_video_area  -->
-    <div class="youtube_video_area">
+    <div class="youtube_video_area" id="clipes">
       <div class="col-xl-12">
         <div class="section_title text-center mb-65">
-          <h3>Confira meu trabalho</h3>
+          <h1 class="confira">Confira meu trabalho</h1>
           <h2><br><br>Clipes</h2>
         </div>
       </div>
@@ -253,7 +274,7 @@
     <!-- / youtube_video_area  -->
 
     <!-- gallery -->
-    <div class="gallery_area">
+    <div class="gallery_area" id="lançamentos">
       <div class="container galleryContainer">
         <div class="row">
           <div class="col-xl-12">
